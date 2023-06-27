@@ -1,0 +1,3 @@
+#!/bin/bash
+# Display $
+echo " I have 100\$ in my pocket"

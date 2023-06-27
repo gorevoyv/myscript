@@ -1,0 +1,17 @@
+#!/bin/bash
+# Test 1
+	"Test 1"
+user=root
+if grep $user /etc/passwd
+then
+echo "The user $user exists"
+fi
+	"Test 2"
+user2=anotherUser
+if grep $user2 /etc/passwd
+then
+echo "The user $user2 exists"
+else
+echo "The user $user2 doesn't existso
+"
+fi

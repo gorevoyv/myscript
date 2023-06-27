@@ -1,0 +1,6 @@
+#!/bin/bash
+name="root"
+if [ $name = $USER ]
+then
+echo "The user $name is the current logged in user"
+fi

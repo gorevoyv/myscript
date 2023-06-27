@@ -1,0 +1,14 @@
+#!/bin/bash
+# Test 1
+mydir=$(pwd)
+echo $mydir
+# Test 2
+a=5
+b=8
+echo "a=5 b=8"
+var1=$((a+b))
+echo "a+b="$var1
+var2=$((a*b))
+echo "a*b="$var2
+var3=$((var2*2))
+echo "(a*b)*2="$var3

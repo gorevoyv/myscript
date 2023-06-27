@@ -1,0 +1,5 @@
+#!/bin/bash
+#  testing variables
+grade=5
+persone="Alex"
+echo "$persone good boy, he is in grade  $grade"

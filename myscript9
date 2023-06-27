@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "Value 1"
+read val1 
+echo "Value 2"
+read val2
+if [$val1 -gt $val2] 
+then
+echo "The test value $val1 is greater than $val2"
+else
+echo "The test value $val1 is not greater than $val2"
+fi
