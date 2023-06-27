@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "Text1"
+read val1
+echo "Text2"
+read val2
+if [ $val1 \> $val2 ]
+then 
+echo "Text1 is greater than Text2"
+else
+echo "Text1 is less than Text2"
+fi
